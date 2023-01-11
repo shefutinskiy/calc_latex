@@ -1,0 +1,446 @@
+
+.calculatorall {
+    width: 80%;
+    display: flex;
+    background:#EDEEF0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.teloproduct {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block-flex;
+    width: 10%
+}
+
+.telocalc { 
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 86%
+}
+
+
+.calc {
+    width: 50%;
+    display: inline-block-flex;
+    padding-top: 20px
+}
+.materlook {
+    display: inline-block-flex;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pricecontainer
+{ 
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 80%
+
+}
+.dopcontprice {
+    width: 80%;
+    display: inline-block-flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.srokprice{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 100%;
+}
+
+.srokpricechild{
+    display: inline-block;
+    width: 50%;
+}
+
+.srokpricechild1{
+    display: inline-block;
+    width: 50%;
+}
+
+.srokpricechild2{
+    width: 50%;
+}
+.footer-price2 {
+    text-align: center;
+}
+
+.holsvibotipa {
+    width: 100%;
+    display: flex;
+}
+.holsvibotipachild {
+    display: inline-block;
+    width: 33%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+
+}
+.holsvibotipachild1 {
+    display: inline-block;
+    width: 33%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+}
+
+.holsvibotipachild2 {
+    display: inline-block;
+    width: 33%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+}
+
+.hols2 {
+    display: flex-wrap;
+}
+.hols3 {
+    display: flex-wrap;
+}
+.hols4 {
+    display: flex-wrap;
+}
+
+label > input{ /* HIDE RADIO */
+    visibility: hidden; /* Makes input not-clickable */
+    position: absolute; /* Remove input from document flow */
+}
+label > input + img{ /* IMAGE STYLES */
+    cursor:pointer;
+    border:2px solid transparent;
+}
+label > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
+    border:2px solid #f00;
+}   
+label {
+    display: block;
+}
+.reg{
+    font-size: small;
+}
+
+.dsh{
+    overflow:hidden;
+    width:100%;
+    display:inline-block;
+}
+.box{
+    white-space:nowrap
+}
+.box div{
+    width:33%;
+    display:inline-block;
+    padding: auto;
+    padding-left: 10px;
+}
+.dsh2{
+     overflow:hidden;
+    width:100%;
+    display:inline-block;
+}
+.box2{
+    white-space:nowrap
+}
+.box2 div{
+   width:50%;
+    display:inline-block;
+    padding: auto;
+    padding-left: 10px;
+}
+
+.name-price {
+    background: #FFD800;
+    color: #333;
+    text-align: center;
+    padding: 2px 0;
+}
+
+.box-price {
+    background: #DDDDDD;
+    color: #333;
+    padding: 0 15px;
+    overflow: hidden;
+    height: 100%;
+}
+
+.box-filter {
+    padding: 10px 0;
+}
+
+.footer-price {
+    background: #ff0000;
+    text-align: center;
+    color: #FFF;
+    padding: 25px 0;
+}
+
+
+.form-group {
+    width: auto;
+}
+
+
+input[type="number"]{
+    width: 100px;
+}
+
+input[type="text"]{
+    width: 100px;
+}
+
+input[class = "w3-round"] {
+    width: 200px;
+    height: 30px;
+
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px; 
+    background: #ffffff !important; 
+    outline: none; 
+    padding-left: 10px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.error input[class="w3-round"]{
+    border: 1px solid red;
+    box-shadow: 2px 2px red inset;
+}
+
+.calculate-product .success{
+    opacity: 1;
+    position: absolute;
+    top: 200px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+}
+
+input[type="radio"] {
+    display:none;
+}
+
+input[type="radio"] + label {
+}
+
+input[type="radio"] + label span {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-2px 10px 0 0;
+    vertical-align:middle;
+    background:url(http://xn--90agcbozdwe4a.xn--p1ai/wp-content/uploads/2020/05/inputradiocheck.svg) -38px top no-repeat;
+    cursor:pointer;
+}
+
+input[type="radio"]:checked + label span {
+    background:url(http://xn--90agcbozdwe4a.xn--p1ai/wp-content/uploads/2020/05/inputradiocheck.svg) -57px top no-repeat;
+}
+input[type="checkbox"] {
+    display:none;
+}
+
+
+input[type="checkbox"] + label span {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-2px 10px 0 0;
+    vertical-align:middle;
+    background:url(http://xn--90agcbozdwe4a.xn--p1ai/wp-content/uploads/2020/05/inputradiocheck.svg) left top no-repeat;
+    cursor:pointer;
+}
+
+input[type="checkbox"]:checked + label span {
+    background:url(http://xn--90agcbozdwe4a.xn--p1ai/wp-content/uploads/2020/05/inputradiocheck.svg) -19px top no-repeat;
+}
+
+.help {
+color: #2C8505; outline: none; /*цвет подсказки*/
+cursor: help; text-decoration: none; /*вид курсора при наведении, можно заменить на pointer*/
+position: relative; /*позиция*/
+
+}
+
+/*положение всплывающей подсказки*/
+.help span {
+margin-left: -999em;
+position: absolute;
+}
+
+/*подсказка при наведении курсора*/
+.help:hover span {
+font-family: Verdana, Tahoma, Geneva, sans-serif; /*шрифт*/
+position: absolute; /*позиция*/
+right: 10px;
+top: 25px;
+z-index: 99;
+margin-left: 0;
+width: 200px; /*ширина блока подсказки*/
+}
+
+/*параметры изображения*/
+.help:hover img {
+border: 0;
+}
+
+/*блок всплывающей подсказки*/
+.airhelp {
+background: none repeat scroll 0 0 white; /*цвет и прозрачность фона*/
+border: 2px solid red; /*параметры бордюра*/
+border-radius: 5px; /*закругление углов*/
+box-shadow: 15px 15px 15px gray; /*тень блока*/
+padding: 5px; /*внутренний отступ*/
+}
+
+.flagdop{
+    width: 100%;
+    display: flex;
+}
+.flagdopchild1{
+    width: 50%;
+    display: inline-block;
+}
+.flagdopchild2{
+    width: 50%;
+    display: inline-block;
+}
+
+.dop{
+    width: 100%;
+    display: flex;
+}
+.dopchild1{
+    width: 50%;
+    display: inline-block;
+}
+.dopchild2{
+    width: 50%;
+    display: inline-block;
+}
+
+.card-images {
+    padding-top: 25px;
+
+}
+.card-images img {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+}
+.calculate-product{
+    margin: 30px 0 0;
+    position: relative;
+    min-width: 300px;
+}
+#card_1_0 {
+    display: inline-block;
+}
+.cardname {
+    padding: 10px;
+    font-size: 95%;
+}
+
+.margin-bottom-10 {display:block; margin-bottom:10px}
+.margin-bottom-15 {display:block; margin-bottom:15px}
+
+.form-btn.calc-btn {
+    width: 250px;
+    height: 40px;
+    background: -webkit-linear-gradient(303deg, red 0%, red 20%, maroon 100%);
+    background: -o-linear-gradient(303deg, red 0%, red 20%, maroon 100%);
+    background: linear-gradient(147deg, red 0%, red 20%, maroon 100%);
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px; }
+
+.catname{
+    border: none; /* Убираем границу */
+    background-color: red; /* Цвет линии */
+    color: red; /* Цвет линии для IE6-7 */
+    height: 2px; /* Толщина линии */
+    margin-bottom:30px
+}
+.catname2{
+    color: red; /* Цвет линии для IE6-7 */
+}
+
+@media screen and (max-width: 1000px) {
+    .telocalc{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .teloproduct{
+        width: 100%;
+    }
+    .calculatorall{
+        flex-wrap: wrap;
+    }
+    .calc, .materlook {
+        width: 100%;
+    }
+    .product-label{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .srokpricechild1, .srokpricechild{
+        width: 100%;
+    }
+    .srokprice{
+        flex-wrap: wrap;
+    }
+    .calculatorall{
+        padding: 15px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .product-label img{
+        max-width: 100%;
+    }
+    .flagdop{
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .flagdopchild1, .flagdopchild2{
+        width: 100%; 
+    }
+    .form-btn.calc-btn, input[class="w3-round"]{
+        width: 90%;
+    }
+} 
+@media screen and (max-width: 300px) {
+    .box div{
+        width: 100%;
+        display: block;
+    }
+    .dop{
+        flex-wrap: wrap;
+    }
+    .dopchild1, .dopchild2{
+        width: 100%;
+        display: block;
+    }
+}
